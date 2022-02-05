@@ -90,10 +90,10 @@ class Effect {
 
           this.symbols = [];
           //this array has all the individual symbol objects
-          this.#initialize();
+          this.initialize();
 
      }
-     #initialize () {
+     initialize () {
          
 
           for (let i = 0; i < this.columns; i++) {
@@ -105,7 +105,7 @@ class Effect {
           this.canvasHeight = height;
           this.columns = this.canvasWidth / this.fontSize;
           this.symbols = [];
-          this.#initialize();
+          this.initialize();
 
      }
 }

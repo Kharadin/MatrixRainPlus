@@ -29,7 +29,7 @@ class Symbol {
           this.fontSize = fontSize;
           this.character = '';
           this.canvasHeight = canvasHeight;
-          this.demoString = ['W', 'E', 'M', 'A', 'K','E','F','A','B'];
+          this.demoString = ['K', 'H', 'A', 'R','A','D','I','N'];
           this.demoStringIndex = 0;
           this.demoStringFlag = false;
 

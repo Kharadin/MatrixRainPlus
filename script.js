@@ -56,9 +56,9 @@ class Symbol {
                this.demoStringIndex ++;
               
                       ctx.font = (effect.fontSize + 2 ) + 'px monospace';
-               ctx.fillStyle = gradient;
+               ctx.fillStyle = '#0aff0a';
               context.fillText("█", this.x * this.fontSize, this.y * this.fontSize);
-              ctx.fillStyle =  '#0aff0a'; // gradient; '#0aff0a';// 
+              ctx.fillStyle =  '#000000';
               context.fillText(this.character, this.x * this.fontSize, this.y * this.fontSize);
 
                

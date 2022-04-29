@@ -31,7 +31,7 @@ class Symbol {
           this.canvasHeight = canvasHeight;
           this.demoString = ['K', 'H', 'A', 'R','A','D','I','N'];
           this.demoStringIndex = 0;
-          this.demoStringFlag = false;
+          this.demoStringFlag = false; 
 
 
 

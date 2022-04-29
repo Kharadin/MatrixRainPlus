@@ -48,14 +48,15 @@ class Symbol {
                this.character = this.characters.charAt(Math.floor(Math.random()*this.characters.length))
               
                     ctx.font = effect.fontSize + 'px monospace';
-               ctx.fillStyle = '#0aff0a'; // gradient; '#0aff0a';// 
+               ctx.fillStyle = '#0aff0a'; // gradient; '#0aff0a';//
+               
                context.fillText(this.character, this.x * this.fontSize, this.y * this.fontSize);
           } else {
 
                this.character = this.demoString[this.demoStringIndex];
                this.demoStringIndex ++;
               
-                      ctx.font = (effect.fontSize + 2 ) + 'px monospace';
+                      ctx.font = (effect.fontSize -1 ) + 'px monospace';
                ctx.fillStyle = '#0aff0a';
               context.fillText("█", this.x * this.fontSize, this.y * this.fontSize);
               ctx.fillStyle =  '#000000';
